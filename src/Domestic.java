@@ -5,8 +5,7 @@ public class Domestic extends Animal {
 }
 
 class Cats extends Domestic {
-    String type = "Кот";
-    public Cats(String name, Integer age) {
+        public Cats(String name, Integer age) {
         super(name, age);
     }
 }
